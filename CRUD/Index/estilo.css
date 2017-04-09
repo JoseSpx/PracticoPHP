@@ -1,0 +1,24 @@
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: fixed;
+    z-index: 0;
+    padding-left: 300px;
+    background-color: #eceff1;
+    height:100%;
+    width: 100%;
+}
+
+
+.titulo{
+    font-family: "Roboto", sans-serif;
+    font-size: 200px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+

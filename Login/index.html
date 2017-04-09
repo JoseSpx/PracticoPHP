@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="../librerias/materialize/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="../librerias/jquery/jquery-3.2.0.min.js"></script>
+    <script src="../librerias/materialize/js/materialize.min.js"></script>
+</head>
+<body>
+    <div class="row">
+        <form action="comprobarLogin.php" method="get" class="container col s4 offset-s4">
+            <div class="row">
+                <div class="input-field">
+                    <input type="text" id="usuario" class="validate" name="usuario">
+                    <label for="usuario">Usuario</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field">
+                    <input type="password" id="pass" class="validate" name="password">
+                    <label for="pass">Password</label>
+                </div>
+            </div>
+            <div class="row">
+                <button type="submit" class="btn waves-effect waves-light col s4 offset-s4" name="submit">
+                    Hola
+                    <i class="material-icons right">send</i>
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-y: hidden;
+}
+
+.menu{
+    width: 300px;
+    height: 100%;
+    z-index: 1;
+    position: fixed;
+    background-color: whitesmoke;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border-right: 1px solid gray;
+
+}
+
+.item{
+    height:50px;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+
+}
+
+
+.item:hover{
+    background-color: #cfd8dc;
+}
+
+.item a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100%;
+    width: 100%;
+}
+

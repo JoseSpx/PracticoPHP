@@ -1,0 +1,61 @@
+body{
+    background-color: #eceff1;
+    overflow-y: visible;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 40px;
+}
+
+.cuerpo{
+    padding-left: 300px;
+    background-color: #eceff1;
+}
+
+.botonEliminar{
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+
+}
+
+.botonEliminar button{
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: red;
+
+}
+
+.botonEliminar button:hover{
+    background-color: lightcoral;
+}
+
+.texto{
+    position: fixed;
+
+    bottom: 120px;
+    right: 15px;
+
+    visibility: hidden;
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    vertical-align: middle;
+    border-radius: 5%;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+*{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+[class^=item-]{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
